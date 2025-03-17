@@ -58,22 +58,22 @@ function dropdownFunction() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
+  "grow into your clothes",
+  "warmth blooms in your chest",
+  "start floating away",
+  "you ask, so I do",
+  "you eat sunflowers",
   "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "you are not so small",
+  "in old hand-me-downs",
+  "you will always love",
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "robbed of something you can't name",
+  "i want to live in your ribs",
+  "back aching, joints, become sore",
+  "your heart is sliced wide open",
+  "you meet a girl who loves you",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -106,26 +106,51 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "akira bike slide compilation",
+  "amazon mounting tape",
+  "australian f1 grand prix",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "broken mirror how many years bad luck",
+  "backstreet boys reunion",
+  "bee sting treatment",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "can dogs eat lemon",
+  "cut on hand how to wrap",
+  "curved shoulders exercises",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "doa: dead or alive watch online full free",
+  "dog ate lemon, what do",
+  "dog throw up how to",
+  "disney plus cost how much",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
+  "eevee pokemon go",
+  "emilia perez reviews",
+  "ebay mirrors",
 
-  "fridge magnets",
+  "full length mirror ikea",
+  "facebook marketplace",
+  "ferrari f1 hat",
+  
+  "golden razz pokemon go",
+  "gemma severance reddit theories",
+  "golden globes 2025",
+  
+  "how to use scotch mounting tape",
+  "headaches remedies",
+  "how to fall asleep easiser",
+  
+  "iftar time",
+  "ice or heat bone or muscle injury",
+  "imposter syndrome",
+  
+  "joint pain remedies",
+  "journey planner ptv",
+  "jack doohan dad",
+  
+  "kmart casey central hours",
+  "kayo f1",
+  "knee bone pop how to"
+  
 ];
 //search function (do not edit)
 function changeText(e) {
@@ -157,15 +182,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "girls, women, teachers, maids, nurses, wives, daughters, sisters, mothers".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "labour, serve, toil, sweat, grind, create, build, operate, perform, achieve, produce, implement, cultivate, make, discover".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "houses, homes, food, life, lives, love, everything, people, children, men, boys, girls, eachother, everyone, society, humanity, sustenance, nourishment, vitality,community".split(
       ","
     );
 // set up the counter
