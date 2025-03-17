@@ -128,9 +128,9 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: green;
+  background-color: #ca5f5f;
   color: white;
-  font-family: "PT Serif", serif; /* font for <p> text */
+  font-family: "Arvo", serif; /* font for <p> text */
   font-size: 14px;
   text-align: center;
 }
@@ -154,8 +154,9 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #000000;
-  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  background-image: url("https://cdn.glitch.global/7e096754-6047-4585-90f6-992b51110703/silas-baisch-K785Da4A_JA-unsplash.jpg?v=1742188292128"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
+  background-size: contain;
+  color: white;
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }
