@@ -7,7 +7,7 @@ body {
   margin: 2em;
   background: #cbf1e4;
   background-image: linear-gradient(
-    #E800FF,
+    #F891FF,
     #F9C2FF,
     #FEF3FF
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
@@ -190,7 +190,7 @@ h5 {
 /* specify the width of each card - the screen is 100% wide, so you can fit 4 x 25% columns in one row or 3 x 33% columns */
 .column {
   float: left;
-  width: 25%;
+  width: 30%;
   padding: 0 6px;
 }
 .columnS {
@@ -200,12 +200,12 @@ h5 {
 }
 .columnL {
   float: left;
-  width: 33%;
+  width: 30%;
   padding: 0 6px;
 }
 .columnXl {
   float: left;
-  width: 50%;
+  width: 30%;
   padding: 0 6px;
 }
 
